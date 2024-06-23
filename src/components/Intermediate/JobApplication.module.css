@@ -1,0 +1,13 @@
+.input_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.add_skills_div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+  max-width: 60%;
+}

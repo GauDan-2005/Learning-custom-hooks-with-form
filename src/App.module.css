@@ -1,0 +1,98 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+
+  padding: 2rem 2.5rem;
+}
+
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: stretch;
+  align-items: stretch;
+  /* align-self: stretch; */
+
+  background-color: #0056b3;
+
+  padding: 1rem;
+  max-width: 70%;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #ededed;
+}
+
+form {
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  /* max-width: 400px; */
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+
+  align-self: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+
+  min-width: 50%;
+  max-width: 50%;
+}
+
+div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+input[type="checkbox"] {
+  margin-top: 0;
+}
+
+span {
+  color: red;
+  font-size: 0.8rem;
+}
+
+button {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
